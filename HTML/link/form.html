@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is form tag lesson</h2>
+    <form action="request.php" method="get">
+        <label for="name" readonly>Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="student_name" id="name" required placeholder="Ma Thein Hnin Swe">
+        <br><br>
+        <label for="email"  readoly>Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" name="student_email" id="email" placeholder="example4@gmail.com">
+        <br><br>
+        <label for="password" >Password</label>&nbsp;&nbsp;&nbsp;
+        <input type="password" name="student_password" id="password">
+        <br><br>
+        <label for="dob">Date of birth</label>
+        <input type="date" name="student_dob" id="dob">
+        <br><br>
+        <label for="passport">Passport Image</label>
+        <input type="file" accept="kk.png" name="student_passport" id="passport">
+        <br><br>
+        <label>Select year </label>
+        <select name="student-year" id="year">
+            <option value="">Select year</option>
+            <option value="first">First year</option>
+            <option value="second">Second year</option>
+            <option value="third">Third year</option>
+            <option value="fourth">Fourth year</option>
+            <option value="fifth">Fifth year</option>
+        </select>
+        <br><br>
+        <label name="student_gender">Gender:</label>
+        <br><br>
+        <input type="radio" name="male" value="male" id="male"><label>Male</label>
+        &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="female" value="female" id="female"><label>Female</label>
+        <br><br>
+        <label name="hobby">Hobby:</label>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Gaming" value="Gaming" id="Gaming">
+        <label>Gaming</label>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Reading" value="Reading" id="Reading">
+        <label>Reading</label>
+        <br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Listening music" value="Listening music" id="Listening music">
+        <label>Listening music</label>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Swimming" value="Swimming" id="Swimming">
+        <label>Swimming</label>
+        <br><br>
+        <label name="student-address">Address:</label>
+        <textarea name="student_area" id="address" row="10" col="50"></textarea>
+        <br><br>
+        <input type="time" name="time" id="time">
+        <input type="week" name="week" id="week">
+        <input type="date_time_local" name="datetimelocal" id="local">
+        <input type="range" id="range" name="range">
+        <input type="color" name="color" id="color">
+        <br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit">Save</button>
+    </form>
+</body>
+</html>
